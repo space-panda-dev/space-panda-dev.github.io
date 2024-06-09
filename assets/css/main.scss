@@ -10,13 +10,41 @@ $french-gray: #c9d0d6ff;
 $battleship-gray: #959696ff;
 $ebony: #5d655aff;
 $cinereous: #8e8277ff;
+$yellow: #fff700ff;
+$red-cmyk: #ff0028ff;
+$coral-pink: #ea7e72ff;
+$golden-brown: #90622eff;
+$chinese-violet: #795a70ff;
+$jonquil: #ffca00ff;
+$imperial-red: #ff0031ff;
+$earth-yellow: #d0a55dff;
+$safety-orange: #fe7b00ff;
+$china-rose: #a45e70ff;
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
 
 body {
     background-image: url("{{site.url}}/assets/img/indieshowcaseset.jpg");
     background-size: cover;
     background-position: center;
-    color: $ebony;
 }
 
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
-@import "minimal-mistakes"; // main partials
+.mynewclass {
+    background-color: $dun;
+    color: $ebony;
+    text-align: center;
+}
+
+.greedy-nav {
+    background: transparent;
+}
+
+.initial-content {
+    background: rgba(208, 165, 93, 0.8);
+}
+
+.page__footer {
+    background: $jonquil;
+    margin-top: 0;
+}
