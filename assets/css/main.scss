@@ -4,6 +4,7 @@ search: false
 ---
 
 @charset "utf-8";
+
 $dun: #d7c8b2ff;
 $french-gray: #c9d0d6ff;
 $battleship-gray: #959696ff;
@@ -21,8 +22,7 @@ $safety-orange: #fe7b00ff;
 $china-rose: #a45e70ff;
 $dark-red: #8e0100ff;
 
-$masthead-link-color: $dun;
-$link-color: $dark-red;
+$link-color: $ebony;
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
@@ -35,7 +35,7 @@ body {
 }
 
 .masthead {
-    background: $dark-red;
+    background: $earth-yellow;
 }
 
 .greedy-nav {
@@ -47,7 +47,6 @@ body {
 }
 
 .page__footer {
-    background: $dark-red;
+    background: $earth-yellow;
     margin-top: 0;
-    color: $dun;
 }
