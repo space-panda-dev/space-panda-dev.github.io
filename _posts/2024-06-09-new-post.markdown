@@ -1,0 +1,7 @@
+---
+layout: single
+title:  "New Post Two"
+date:   2024-06-09 05:47:42 -0400
+---
+
+This is a test of a post I haven't navigated to yet

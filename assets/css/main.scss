@@ -21,7 +21,8 @@ $safety-orange: #fe7b00ff;
 $china-rose: #a45e70ff;
 $dark-red: #8e0100ff;
 
-$text-color: $dun;
+$masthead-link-color: $dun;
+$link-color: $dark-red;
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
@@ -30,12 +31,7 @@ body {
     background-image: url("{{site.url}}/assets/img/indieshowcaseset.jpg");
     background-size: cover;
     background-position: center;
-}
-
-.mynewclass {
-    background-color: $dun;
-    color: $ebony;
-    text-align: center;
+    font-family: "Prata", serif;
 }
 
 .masthead {
@@ -53,4 +49,5 @@ body {
 .page__footer {
     background: $dark-red;
     margin-top: 0;
+    color: $dun;
 }
