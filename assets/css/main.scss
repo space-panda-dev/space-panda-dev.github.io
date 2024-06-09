@@ -1,0 +1,22 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+search: false
+---
+
+@charset "utf-8";
+
+$dun: #d7c8b2ff;
+$french-gray: #c9d0d6ff;
+$battleship-gray: #959696ff;
+$ebony: #5d655aff;
+$cinereous: #8e8277ff;
+
+body {
+    background-image: url("{{site.url}}/assets/img/moodypanda.jpg");
+    background-size: cover;
+    background-position: center;
+    color: $ebony;
+}
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
