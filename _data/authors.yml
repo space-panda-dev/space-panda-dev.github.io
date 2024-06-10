@@ -1,0 +1,11 @@
+Space Panda:
+  name: "Space Panda"
+  bio: "Saving the world, one compile error at a time."
+  avatar: "/assets/img/moodypanda.jpg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:spacepandapersonal@gmail.com"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://github.com/space-panda-dev"

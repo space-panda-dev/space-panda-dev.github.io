@@ -1,0 +1,7 @@
+main:
+  - title: "Music"
+    url: /music
+  - title: "Software"
+    url: /development
+  - title: "About"
+    url: /about

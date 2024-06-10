@@ -24,6 +24,8 @@ $dark-red: #8e0100ff;
 
 $link-color: $ebony;
 
+$sans-serif: "VT323", sans-serif;
+
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
@@ -31,7 +33,6 @@ body {
     background-image: url("{{site.url}}/assets/img/indieshowcaseset.jpg");
     background-size: cover;
     background-position: center;
-    font-family: "Prata", serif;
 }
 
 .masthead {
@@ -40,6 +41,10 @@ body {
 
 .greedy-nav {
     background: transparent;
+}
+
+.greedy-nav__toggle {
+    color: $ebony !important;
 }
 
 .initial-content {
