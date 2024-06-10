@@ -1,7 +1,7 @@
 Space Panda:
   name: "Space Panda"
   bio: "Saving the world, one compile error at a time."
-  avatar: "/assets/img/moodypanda.jpg"
+  avatar: "https://ca.slack-edge.com/T0HLPBMRV-U01TYRVB3U0-132a25c1b837-72"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
